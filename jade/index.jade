@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+  head
+    title SJCam
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" type="text/css" href="css/index.css")
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
+    script(src="jquery/index.js")
+    
+  body
+    .page
+      .title 霍華德論壇
+      .post
+        .topbar
+          label 你的名子 : 
+          input.name(type = "text" placeholder="名子")
+          button.post_btn Post
+        .content
+          textarea.user_content
+      .forum
+        .info
+          h4.user_name_forum 何智誠說 : 
+          p.user_content_forum 這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容這是內容
+        .comment
+          h5 留言
+          input.comment_name(type="text" placeholder="名子")
+          textarea.user_comment_forum(placeholder="Leave Your Comment Here...")
+        .comment_inner
+          //- .comment_block
+          //-   h5.inner_comment_name 王韻真
+          //-   p.inner_comment_content 這是回復這是回復這是回復這是回復這是回復這是回復
+          //-   h6.reply_btn 回覆
+          //-   h6.cancel X
+          //- .reply_input
+          //-   textarea(placeholder="Reply Here...")
+          //- .user_reply
+          //-   h5 To 王韻真
+          //-   p.reply_content 回覆回覆回覆回覆回覆回覆
+          //-   h6.cancel_reply X
+  
